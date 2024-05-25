@@ -1,0 +1,97 @@
+body {
+    background-image:url(img4.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form {
+    background: rgba(44, 62, 80, 0.7);
+    
+    width: 250px;
+    padding: 40px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: large;
+    margin-left: 550px;
+    margin: 0 auto;
+
+}
+
+ input {
+    text-align: center;
+    width: 200px;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    padding: 10px;
+ }
+ #button {
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    padding: 5px;
+    text-decoration: none;
+
+    border-radius: 200px;
+
+ }
+
+ button:hover {
+    background-color: black;
+    color: blue;
+ }
+
+.two {
+    color: red;
+}
+
+.three {
+    color: gold;
+    cursor: pointer;
+}
+
+.three:hover {
+    color: lightblue;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+
+h3 {
+    color: gold;
+}
+
+.signin {
+    background: rgba(44, 62, 80, 0.8);
+    width: 200px;
+    margin-left: 550px;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.signinbutton {
+    text-align: center;
+    cursor: pointer;
+}
+
+.signinbutton:hover {
+    background-color: gold;
+    color: black;
+}
+
+.signupbody {
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    color: red;
+}
+.signina:hover {
+    color: gold;
+}
